@@ -23,7 +23,7 @@ public class MainTest
 		Trainer.train("digits.png", numberKnn, Constants.NUMBER_OF_DIGITS, Constants.NUMBERS);
 		
 		
-		ImageAnalyser imageAnalyser = new ImageAnalyser("capture1.png", numberKnn);
+		ImageAnalyser imageAnalyser = new ImageAnalyser("capture.png", numberKnn);
 		imageAnalyser.analyse(true);
 	}
 }
